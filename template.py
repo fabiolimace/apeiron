@@ -6,7 +6,7 @@
 
 @author: <AUTHOR> <author@gmail.com>
 @copyright: Copyright (c) 2013 <AUTHOR>
-@license: LGP
+@license: GPL
 
 This file is part of <PROJECT>.
 
