@@ -1,0 +1,59 @@
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=false
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=miniapps
+base_path=/home/fabio/Desenvolvimento/miniapps/src
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=8
+FILE_NAME_0=317;Java;0;EUTF-8;1;1;0;%2Fhome%2Ffabio%2FDesenvolvimento%2Fminiapps%2Fsrc%2Fcom%2Fgithub%2Fminiapps%2Fcore%2FGroup.java;0;4
+FILE_NAME_1=34;Java;0;EUTF-8;1;1;0;%2Fhome%2Ffabio%2FDesenvolvimento%2Fminiapps%2Fsrc%2Fcom%2Fgithub%2Fminiapps%2Fcore%2FParameter.java;0;4
+FILE_NAME_2=1;Java;0;EUTF-8;1;1;0;%2Fhome%2Ffabio%2FDesenvolvimento%2Fminiapps%2Fsrc%2Fcom%2Fgithub%2Fminiapps%2Fcore%2FPermission.java;0;4
+FILE_NAME_3=1;Java;0;EUTF-8;1;1;0;%2Fhome%2Ffabio%2FDesenvolvimento%2Fminiapps%2Fsrc%2Fcom%2Fgithub%2Fminiapps%2Fcore%2FRole.java;0;4
+FILE_NAME_4=191;Java;0;EUTF-8;1;1;0;%2Fhome%2Ffabio%2FDesenvolvimento%2Fminiapps%2Fsrc%2Fcom%2Fgithub%2Fminiapps%2Fcore%2FUser.java;0;4
+FILE_NAME_5=75;Java;0;EUTF-8;1;1;0;%2Fhome%2Ffabio%2FDesenvolvimento%2Fminiapps%2Fsrc%2Fcom%2Fgithub%2Fminiapps%2Fscheduling%2FDailyScheduling.java;0;4
+FILE_NAME_6=68;Java;0;EUTF-8;1;1;0;%2Fhome%2Ffabio%2FDesenvolvimento%2Fminiapps%2Fsrc%2Fcom%2Fgithub%2Fminiapps%2Fscheduling%2FMonthlyScheduling.java;0;4
+FILE_NAME_7=316;Java;0;EUTF-8;1;1;0;%2Fhome%2Ffabio%2FDesenvolvimento%2Fminiapps%2Fsrc%2Fcom%2Fgithub%2Fminiapps%2Fscheduling%2FScheduling.java;0;4
+FILE_NAME_8=95;Java;0;EUTF-8;1;1;0;%2Fhome%2Ffabio%2FDesenvolvimento%2Fminiapps%2Fsrc%2Fcom%2Fgithub%2Fminiapps%2Fscheduling%2FWeeklyScheduling.java;0;4
+
+[VTE]
+last_dir=/home/fabio
+
+[build-menu]
+filetypes=Java;
+JavaFT_01_LB=
+JavaFT_01_CM=
+JavaFT_01_WD=
+NF_00_LB=_Make
+NF_00_CM=make
+NF_00_WD=
+NF_01_LB=Make _Destino Personalizado
+NF_01_CM=make 
+NF_01_WD=
+NF_02_LB=Make O_bjeto
+NF_02_CM=make %e.o
+NF_02_WD=
+NF_03_LB=
+NF_03_CM=
+NF_03_WD=
+JavaFT_00_LB=_Compilar
+JavaFT_00_CM=javac "%f"
+JavaFT_00_WD=
