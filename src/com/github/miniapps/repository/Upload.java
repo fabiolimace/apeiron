@@ -2,6 +2,7 @@ package com.github.miniapps.repository;
 
 import java.util.Date;
 
+import com.github.miniapps.core.Status;
 import com.github.miniapps.core.User;
 
 public class Upload {
@@ -16,10 +17,7 @@ public class Upload {
 	private String path;
 	private String name;
 	private String description;
-
-	public enum Status {
-		ACTIVE, INACTIVE
-	}
+	private UploadFolder uploadFolder;
 
 	public Upload() {
 	}
@@ -102,6 +100,14 @@ public class Upload {
 
 	public void setDescription(String description) {
 		this.description = description;
+	}
+
+	public UploadFolder getUploadFolder() {
+		return uploadFolder;
+	}
+
+	public void setUploadFolder(UploadFolder uploadFolder) {
+		this.uploadFolder = uploadFolder;
 	}
 
 }
