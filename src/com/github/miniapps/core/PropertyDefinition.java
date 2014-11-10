@@ -8,6 +8,7 @@ public class PropertyDefinition {
 	private boolean hidden;
 	private boolean multiple;
 	private boolean required;
+	private boolean textarea;
 	private String name;
 	private PropertyType propertyType;
 	private PropertyList propertyList;
