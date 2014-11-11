@@ -1,17 +1,18 @@
 package com.github.miniapps.core;
 
-public class PropertyDefinition {
+import java.util.Set;
 
-	private int id;
-	private Status status;
-	private int index;
-	private boolean hidden;
-	private boolean multiple;
-	private boolean required;
-	private boolean textarea;
-	private String name;
-	private PropertyType propertyType;
-	private PropertyList propertyList;
+public abstract class PropertyDefinition {
+
+	protected int id;
+	protected Status status;
+	protected int index;
+	protected boolean required;
+	protected String name;
+	protected String label;
+	protected PropertyType propertyType;
+	protected PropertySetDefinition propertySetDefinition;
+	protected Set<PropertyOption> propertyOptions;
 
 	public PropertyDefinition() {
 	}
@@ -40,36 +41,12 @@ public class PropertyDefinition {
 		this.propertyType = propertyType;
 	}
 
-	public PropertyList getPropertyList() {
-		return propertyList;
-	}
-
-	public void setPropertyList(PropertyList propertyList) {
-		this.propertyList = propertyList;
-	}
-
 	public String getName() {
 		return name;
 	}
 
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	public boolean isHidden() {
-		return hidden;
-	}
-
-	public void setHidden(boolean hidden) {
-		this.hidden = hidden;
-	}
-
-	public boolean isMultiple() {
-		return multiple;
-	}
-
-	public void setMultiple(boolean multiple) {
-		this.multiple = multiple;
 	}
 
 	public boolean isRequired() {
@@ -86,5 +63,29 @@ public class PropertyDefinition {
 
 	public void setIndex(int index) {
 		this.index = index;
+	}
+
+	public String getLabel() {
+		return label;
+	}
+
+	public void setLabel(String label) {
+		this.label = label;
+	}
+
+	public PropertySetDefinition getPropertySetDefinition() {
+		return propertySetDefinition;
+	}
+
+	public void setPropertySetDefinition(PropertySetDefinition propertySetDefinition) {
+		this.propertySetDefinition = propertySetDefinition;
+	}
+
+	public Set<PropertyOption> getPropertyOptions() {
+		return propertyOptions;
+	}
+
+	public void setPropertyOptions(Set<PropertyOption> propertyOptions) {
+		this.propertyOptions = propertyOptions;
 	}
 }

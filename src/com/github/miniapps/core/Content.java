@@ -13,7 +13,7 @@ public class Content {
 	protected Date publishDate;
 	protected Date unpublishDate;
 	protected User author;
-	protected Set<Tag> tags;
+	protected Set<ContentTag> contentTags;
 	protected Set<Property> properties;
 	protected Content parent;
 	protected Set<Content> children;
@@ -126,14 +126,6 @@ public class Content {
 
 	public void setRevisions(Set<Content> revisions) {
 		this.revisions = revisions;
-	}
-
-	public Set<Tag> getTags() {
-		return tags;
-	}
-
-	public void setTags(Set<Tag> tags) {
-		this.tags = tags;
 	}
 
 	public Set<Property> getProperties() {

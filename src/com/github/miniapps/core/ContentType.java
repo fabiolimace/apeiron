@@ -1,12 +1,13 @@
 package com.github.miniapps.core;
 
+import java.util.Set;
+
 public class ContentType {
 
 	protected int id;
 	protected Status status;
 	protected String name;
-	protected TagSet tagSet;
-	protected PropertyList propertyList;
+	protected Set<ContentTagSet> contentTagSet;
 
 	public ContentType() {
 	}
@@ -33,22 +34,6 @@ public class ContentType {
 
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	public TagSet getTagSet() {
-		return tagSet;
-	}
-
-	public void setTagSet(TagSet tagSet) {
-		this.tagSet = tagSet;
-	}
-
-	public PropertyList getPropertyList() {
-		return propertyList;
-	}
-
-	public void setPropertyList(PropertyList propertyList) {
-		this.propertyList = propertyList;
 	}
 
 }

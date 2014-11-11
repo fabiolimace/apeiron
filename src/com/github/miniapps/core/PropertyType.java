@@ -2,14 +2,15 @@ package com.github.miniapps.core;
 
 public class PropertyType {
 
-	protected int id;
-	protected Status status;
-	protected int length;
-	protected String name;
-	protected String pattern;
-	
-	public PropertyType() { }
-		
+	private int id;
+	private Status status;
+	private String name;
+	private String label;
+	private String pattern;
+
+	public PropertyType() {
+	}
+
 	public int getId() {
 		return id;
 	}
@@ -42,13 +43,17 @@ public class PropertyType {
 		this.status = status;
 	}
 
-	public int getLength() {
-		return length;
+	public String getLabel() {
+		return label;
 	}
 
-	public void setLength(int length) {
-		this.length = length;
+	public void setLabel(String label) {
+		this.label = label;
 	}
-	
+
+	public boolean check(String value) {
+		// TODO Compare a value with a pattern
+		return false;
+	}
 
 }

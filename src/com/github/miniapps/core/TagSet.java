@@ -2,11 +2,12 @@ package com.github.miniapps.core;
 
 import java.util.Set;
 
-public class TagSet {
+public abstract class TagSet {
 
 	protected int id;
 	protected Status status;
 	protected String name;
+	protected String label;
 	protected Set<Tag> tags;
 
 	public TagSet() {

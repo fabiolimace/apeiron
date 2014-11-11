@@ -1,10 +1,10 @@
 package com.github.miniapps.core;
 
-public class Tag {
+public abstract class Tag {
 
 	protected int id;
-	protected String slug;
 	protected String name;
+	protected String label;
 	protected TagSet tagSet;
 
 	public Tag() {
@@ -19,11 +19,11 @@ public class Tag {
 	}
 
 	public String getSlug() {
-		return slug;
+		return label;
 	}
 
-	public void setSlug(String slug) {
-		this.slug = slug;
+	public void setSlug(String label) {
+		this.label = label;
 	}
 
 	public TagSet getTagSet() {
