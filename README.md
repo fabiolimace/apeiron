@@ -1,4 +1,4 @@
-MiniFramework
+Apeiron
 =======
 
-A minimalist web framework using Python.
+A minimalist web framework.
